@@ -551,13 +551,13 @@ svg.spinner circle {
 /* 5. Header */
 /*
  * Utilities
- * .navbar--fixed 
+ * .navbar--fixed
  * .navbar--underline
  * .navbar--strike
  */
 #header {
     background-color: #404040;
-    background-image: url("../images/header.jpg");
+    background-image: url("../images/header-background.jpg");
     background-size: cover;
     background-position: 50% 50%;
     height: 100vh;

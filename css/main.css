@@ -557,7 +557,7 @@ svg.spinner circle {
  */
 #header {
     background-color: #404040;
-    background-image: url("../images/header-background.jpg");
+    background-image: url("../images/headerbackground.jpg");
     background-size: cover;
     background-position: 50% 50%;
     height: 100vh;

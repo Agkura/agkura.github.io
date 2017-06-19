@@ -1,9 +1,9 @@
 <?php
 
-// Settings 
-$recipient = 'example@domain.com'; // Replace it with your e-mail address
+// Settings
+$recipient = 'jack.othello@gmail.com'; // Replace it with your e-mail address
 $fromMail = 'contact@domain.com'; // Replace it with the email address the generated message will be send from
-$subject = 'Contact Form - domain.com'; // Replace it with subject that you want to see when you receive a message
+$subject = 'Contact Form - MM'; // Replace it with subject that you want to see when you receive a message
 $responses = [
     'invalid' => '', // When a data is invalid
     'success' => '',
@@ -25,7 +25,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         exit;
     }
 
-    // Set the message 
+    // Set the message
     $content =  "From: $name\nEmail: $email\n\nMessage:\n$message\n";
     $header = "From: $fromMail\r\nReply-To: $email\r\n";
 

@@ -721,7 +721,11 @@ svg.spinner circle {
 
 .grid-sizer,
 .works__item {
-    width: 100%;
+  right: 0;
+  left: 0;
+  margin-left: auto;
+  margin-right: auto;
+    width: 50%;
 }
 
 .gutter-sizer {
@@ -1043,6 +1047,10 @@ svg.spinner circle {
     }
     .grid-sizer,
     .works__item {
+      right: 0;
+      left: 0;
+      margin-left: auto;
+      margin-right: auto;
         width: calc(50% - 25px);
     }
     .gutter-sizer {
@@ -1070,8 +1078,12 @@ svg.spinner circle {
     /* Portfolio */
     .grid-sizer,
     .works__item {
-        width: 30.6666%;
-        width: calc(33.3333% - 33.3333333333px);
+      right: 0;
+      left: 0;
+      margin-left: auto;
+      margin-right: auto;
+        width: 50%;
+        /*width: calc(33.3333% - 33.3333333333px);*/
     }
 }
 

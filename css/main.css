@@ -1349,3 +1349,16 @@ svg.spinner circle {
     display: block;
     z-index: 9;
 }
+
+.fa {
+  padding-right: 20px;
+}
+
+.list-unstyled a {
+  border-bottom: none;
+  transition: all .3s ease-in-out;
+}
+
+/*.list-unstyled a:hover {
+  transform: scale(2);
+}*/
